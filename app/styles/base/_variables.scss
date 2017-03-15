@@ -1,9 +1,16 @@
 // Colors
+
 $primary: #009688;
 $primaryDark: #00796B;
+$primaryLight: #B2DFDB;
 $accent: #FF9800;
 $grey: #333333;
 
 // Navigation Colors
 $nav-background: $primaryDark;
 $nav-text-color: white;
+
+// Clock Colors
+$clock-text-color: white;
+$clock-bg-color: $primaryLight;
+$clock-border-color: $primary;
