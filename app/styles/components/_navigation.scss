@@ -1,12 +1,27 @@
-.top-bar, .top-bar ul {
-    background-color: $nav-background;
-}
-
 .top-bar {
+
+    background-color: $nav-background; 
+
     .menu-text {
         color: $nav-text-color;
     }
 
+    .active-link {
+        color: $accent;
+        font-weight: bold;
+    }
+
+    ul {
+        background-color: $nav-background;
+    }
+
+    li > a {
+        color: $accent;
+    }
+
+    li > a:hover {
+        color: white;
+    }
 
     .menu > .menu-text > a {
         display: inline;
